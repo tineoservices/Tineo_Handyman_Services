@@ -71,16 +71,18 @@ textarea {
   margin-top: 2px;
 }
 
-.site-header nav {
-  display: flex;
-  gap: 35px;
-  font-size: 13px;
-  font-weight: 700;
+.site-header .brand {
+  font-family: "rhythm-one-solid", sans-serif !important;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 0;
 }
 
-.site-header nav a:hover,
-.text-link:hover {
-  color: var(--red);
+.site-header .brand small {
+  font-family: Helvetica, Arial, sans-serif !important;
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 2px;
 }
 
 .header-cta {
