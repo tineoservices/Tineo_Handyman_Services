@@ -5,216 +5,275 @@
   <!-- 01 | WEBSITE SETTINGS -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Tineo Handyman Services — practical repairs, maintenance and home improvements in the Napa and San José area.">
-  <meta name="theme-color" content="#f7f7f5">
-  <title>Tineo Handyman Services | Home Projects, Handled Right</title>
+  <meta name="description" content="Tineo Handyman Services — repairs, maintenance, and improvements in the Napa and San Jose area.">
+  <meta name="theme-color" content="#8f2420">
+  <title>Tineo Handyman Services | Good Old-Fashioned Work</title>
+
+  <!-- FONTS AND STYLES -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <script src="script.js" defer></script>
 </head>
 
 <body>
+  <!-- 02 | TOP ANNOUNCEMENT -->
+  <div class="top-strip">
+    <span>★ INDEPENDENT HANDYMAN SERVICE ★</span>
+    <span>NAPA & SAN JOSÉ AREA · CALIFORNIA</span>
+  </div>
 
-  <!-- 02 | NAVIGATION -->
-  <header class="header">
-    <a href="#home" class="brand" aria-label="Tineo home">
-      <span class="logo-box">
-        <img src="images/tineo-stamp.png" alt="" onerror="this.style.display='none'">
-        <span class="logo-letter">T<span>.</span></span>
+  <!-- 03 | HEADER AND LOGO -->
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Tineo home">
+      <span class="logo-frame">
+        <img src="images/tineo-stamp.png"
+             alt="Tineo stamp logo"
+             onerror="this.style.display='none';this.nextElementSibling.hidden=false">
+        <span class="logo-fallback" hidden>T.</span>
       </span>
-      <span class="brand-text">
-        TINEO
+      <span class="brand-copy">
+        <strong>TINEO</strong>
         <small>HANDYMAN SERVICES</small>
       </span>
     </a>
 
     <nav aria-label="Main navigation">
-      <a href="#services">Services</a>
-      <a href="#work">Work</a>
-      <a href="#about">About</a>
+      <a href="#home">HOME</a>
+      <a href="#services">SERVICES</a>
+      <a href="#work">OUR WORK</a>
+      <a href="#contact">CONTACT</a>
     </nav>
 
-    <a href="#contact" class="nav-button">Get a Quote <span>↗</span></a>
+    <a class="nav-quote" href="#contact">REQUEST A QUOTE ↗</a>
   </header>
 
   <main>
+    <!-- 04 | HERO / MAIN HEADLINE -->
+    <section id="home" class="hero">
+      <div class="hero-copy">
+        <p class="kicker">✦ A LITTLE HARD WORK GOES A LONG WAY ✦</p>
 
-    <!-- 03 | HERO — CHANGE YOUR MAIN HEADLINE HERE -->
-    <section class="hero" id="home">
-      <div class="hero-content">
-        <p class="eyebrow">TINEO HANDYMAN SERVICES <span class="red-line"></span></p>
+        <h1>
+          GOOD<br>
+          OLD-FASHIONED<br>
+          <span>WORK.</span>
+        </h1>
 
-        <h1>Home projects,<br>handled <span>right.</span></h1>
+        <p class="hero-script">Built to last.</p>
 
         <p class="hero-description">
-          Reliable handyman services for repairs,
-          improvements, and everyday maintenance.
-          Straightforward service. Careful work.
+          The honey-do list ends here. From everyday
+          repairs to those long-overdue projects,
+          we bring honest communication, careful
+          workmanship, and a get-it-done attitude.
         </p>
 
         <div class="hero-actions">
-          <a href="#contact" class="button dark-button">Get a Quote <span>↗</span></a>
-          <a href="#services" class="quiet-link">Explore Services ↓</a>
+          <a href="#contact" class="btn btn-red">
+            REQUEST A QUOTE ↗
+          </a>
+          <a href="#work" class="btn btn-outline">
+            SEE OUR WORK ↓
+          </a>
         </div>
+
+        <p class="hero-location">
+          PROUDLY SERVING NAPA & THE SAN JOSÉ AREA
+        </p>
       </div>
 
-      <div class="hero-art" aria-hidden="true">
-        <div class="hero-circle"></div>
-        <div class="hero-t">T<span>.</span></div>
-        <div class="hero-art-label">CRAFT / CARE / DETAIL</div>
+      <!-- HERO ART: REPLACE WITH YOUR OWN IMAGE -->
+      <div class="hero-art">
+        <div class="sun-disc"></div>
+        <div class="art-frame">
+          <span class="art-star">✦</span>
+          <div class="tool-symbol">⚒</div>
+          <strong>THE RIGHT TOOL.<br>THE RIGHT ATTITUDE.</strong>
+          <small>TINEO HANDYMAN SERVICES</small>
+        </div>
+        <div class="art-bottom">QUALITY IS IN THE DETAILS · EST. WITH PURPOSE</div>
       </div>
     </section>
 
-    <!-- 04 | SERVICES — EDIT SERVICE NAMES HERE -->
-    <section class="services section" id="services">
+    <!-- 05 | VINTAGE SERVICE STRIP -->
+    <div class="service-strip" aria-label="Services overview">
+      <span>✦ REPAIRS</span>
+      <span>✦ MAINTENANCE</span>
+      <span>✦ IMPROVEMENTS</span>
+      <span>✦ PROJECTS</span>
+    </div>
+
+    <!-- 06 | MISSION STATEMENT -->
+    <section class="mission paper-section" id="mission">
+      <div class="section-label">01 / THE TINEO WAY</div>
+      <div class="mission-content">
+        <p class="overline">HONEST WORK. NO NONSENSE.</p>
+        <h2>DO IT ONCE.<br><em>DO IT RIGHT.</em></h2>
+        <p>
+          At Tineo Handyman Services, we believe a
+          job worth doing is worth doing well.
+          Our mission is to show up prepared,
+          communicate clearly, respect your property,
+          and take pride in the details.
+        </p>
+        <p>
+          Whether it's a small repair or a project
+          that's been waiting for the right hands,
+          every job deserves genuine effort.
+        </p>
+        <div class="mission-stamp">BUILT ON TRUST ★ DRIVEN BY WORK</div>
+      </div>
+    </section>
+
+    <!-- 07 | SERVICES -->
+    <section class="services paper-section" id="services">
       <div class="section-intro">
         <div>
-          <p class="eyebrow">01 / WHAT WE DO <span class="red-line"></span></p>
-          <h2>Practical help for<br>your space.</h2>
+          <p class="overline">02 / WHAT WE DO</p>
+          <h2>ROLL UP<br>OUR SLEEVES.</h2>
         </div>
-        <p>From the little things that need fixing to the improvements you've been planning.</p>
+        <p>Practical help for the projects that keep your home or property moving forward.</p>
       </div>
 
-      <div class="service-grid">
+      <div class="services-grid">
         <article class="service-card">
-          <span class="service-icon">✳</span>
-          <span class="service-number">01</span>
-          <h3>Repairs &<br>Maintenance</h3>
-          <p>Everyday repairs and upkeep to help keep your property in good condition.</p>
+          <span class="service-number">NO. 01</span>
+          <span class="service-icon">⚒</span>
+          <h3>REPAIRS</h3>
+          <p>Everyday fixes and general handyman work.</p>
         </article>
 
         <article class="service-card">
+          <span class="service-number">NO. 02</span>
+          <span class="service-icon">✦</span>
+          <h3>MAINTENANCE</h3>
+          <p>Helping you stay ahead of the little things.</p>
+        </article>
+
+        <article class="service-card">
+          <span class="service-number">NO. 03</span>
           <span class="service-icon">⌂</span>
-          <span class="service-number">02</span>
-          <h3>Home<br>Improvements</h3>
-          <p>Thoughtful improvements that make your space more useful and comfortable.</p>
+          <h3>IMPROVEMENTS</h3>
+          <p>Thoughtful upgrades that make spaces work better.</p>
         </article>
 
         <article class="service-card">
-          <span class="service-icon">▤</span>
-          <span class="service-number">03</span>
-          <h3>Installations<br>& Upgrades</h3>
-          <p>Help with practical installations, replacements, and finishing details.</p>
-        </article>
-
-        <article class="service-card">
-          <span class="service-icon">▰</span>
-          <span class="service-number">04</span>
-          <h3>Painting<br>& Finishing</h3>
-          <p>Careful preparation and finishing work for a cleaner, refreshed space.</p>
+          <span class="service-number">NO. 04</span>
+          <span class="service-icon">★</span>
+          <h3>ODD JOBS</h3>
+          <p>Have something unusual in mind? Let's talk about it.</p>
         </article>
       </div>
-      <p class="service-disclaimer">Services are subject to project scope and applicable California licensing requirements.</p>
+
+      <p class="services-note">
+        All projects are subject to applicable licensing
+        requirements and permitted scope of work.
+      </p>
     </section>
 
-    <!-- 05 | PAST JOBS — ADD YOUR OWN PROJECT PHOTOS -->
-    <section class="work section" id="work">
+    <!-- 08 | PAST JOBS -->
+    <section class="work paper-section" id="work">
       <div class="section-intro">
         <div>
-          <p class="eyebrow">02 / SELECTED WORK <span class="red-line"></span></p>
-          <h2>Work speaks<br>for itself.</h2>
+          <p class="overline">03 / FROM THE WORKBENCH</p>
+          <h2>OUR WORK<span class="red-period">.</span></h2>
         </div>
-        <p>Real projects, real details. This is where completed work will be showcased.</p>
+        <p>Real work deserves real proof. Add photos and details from your completed jobs here.</p>
       </div>
 
-      <div class="work-grid">
-        <!-- PROJECT 1 -->
-        <article class="work-card">
-          <div class="work-image">
-            <!-- Replace this placeholder with:
-            <img src="images/job1.jpg" alt="Description of completed work">
-            -->
-            <span>PROJECT 001</span>
-            <strong>YOUR PROJECT PHOTO</strong>
+      <div class="project-grid">
+        <!-- PROJECT 1: CHANGE TITLE, TEXT, PHOTO -->
+        <article class="project-card">
+          <div class="project-photo">
+            <span class="photo-placeholder">YOUR PROJECT PHOTO 01</span>
           </div>
-          <div class="work-details">
-            <h3>Repairs & Maintenance</h3>
-            <span>PROJECT PLACEHOLDER ↗</span>
+          <div class="project-details">
+            <span>PROJECT 001 / PORTFOLIO</span>
+            <h3>REPAIRS & MAINTENANCE</h3>
+            <p>Add the details of a completed repair here.</p>
           </div>
         </article>
 
         <!-- PROJECT 2 -->
-        <article class="work-card">
-          <div class="work-image second">
-            <span>PROJECT 002</span>
-            <strong>YOUR PROJECT PHOTO</strong>
+        <article class="project-card">
+          <div class="project-photo">
+            <span class="photo-placeholder">YOUR PROJECT PHOTO 02</span>
           </div>
-          <div class="work-details">
-            <h3>Home Improvements</h3>
-            <span>PROJECT PLACEHOLDER ↗</span>
+          <div class="project-details">
+            <span>PROJECT 002 / PORTFOLIO</span>
+            <h3>HOME IMPROVEMENTS</h3>
+            <p>Showcase a finished improvement project.</p>
+          </div>
+        </article>
+
+        <!-- PROJECT 3 -->
+        <article class="project-card">
+          <div class="project-photo">
+            <span class="photo-placeholder">YOUR PROJECT PHOTO 03</span>
+          </div>
+          <div class="project-details">
+            <span>PROJECT 003 / PORTFOLIO</span>
+            <h3>CUSTOM PROJECTS</h3>
+            <p>Tell customers what you built or improved.</p>
           </div>
         </article>
       </div>
     </section>
 
-    <!-- 06 | ABOUT / MISSION STATEMENT -->
-    <section class="about section" id="about">
-      <p class="eyebrow">03 / OUR APPROACH <span class="red-line"></span></p>
-
-      <div class="about-grid">
-        <h2>Built on trust,<br>attention to detail,<br>and hard work.</h2>
-
-        <div class="about-copy">
-          <p>
-            At Tineo Handyman Services, our mission is simple:
-            show up prepared, communicate clearly, and treat
-            every property with respect.
-          </p>
-          <p>
-            We believe in doing the small things well,
-            being straightforward about the work, and
-            leaving every project with something to be proud of.
-          </p>
-          <strong>No shortcuts. No unnecessary complications. Just honest effort.</strong>
+    <!-- 09 | CONTACT / SERVICE REQUEST -->
+    <section class="contact paper-section" id="contact">
+      <div class="contact-copy">
+        <p class="overline">04 / SERVICE REQUEST DESK</p>
+        <h2>GOT A JOB?<br><em>LET'S TALK.</em></h2>
+        <p>
+          Tell us what needs fixing, building, or
+          improving. We'll take it from there.
+        </p>
+        <div class="contact-seal">
+          <span>★</span>
+          <strong>GOOD WORK<br>STARTS HERE</strong>
+          <span>★</span>
         </div>
       </div>
-    </section>
 
-    <!-- 07 | CONTACT — EMAIL FORM -->
-    <section class="contact section" id="contact">
-      <div class="contact-heading">
-        <div>
-          <p class="eyebrow">04 / GET IN TOUCH <span class="red-line"></span></p>
-          <h2>Let's make<br>it happen.</h2>
-          <p>Tell us about your project. We'll start with a conversation.</p>
-        </div>
-        <span class="contact-mark">T<span>.</span></span>
-      </div>
-
-      <form id="contact-form" class="contact-form">
-        <div class="form-row">
-          <label>
-            Your name
-            <input name="name" type="text" placeholder="Full name" required>
-          </label>
-          <label>
-            Your email
-            <input name="email" type="email" placeholder="you@example.com" required>
-          </label>
+      <form class="contact-form" id="contact-form">
+        <div class="form-heading">
+          <strong>PROJECT INQUIRY</strong>
+          <span>FORM NO. T-001</span>
         </div>
 
-        <label>
-          What can we help with?
-          <textarea name="message" rows="5" placeholder="Tell us about the project, location, and timeline..." required></textarea>
-        </label>
+        <label for="name">YOUR NAME</label>
+        <input id="name" name="name" required placeholder="Full name">
 
-        <button class="button dark-button" type="submit">Prepare Email Request ↗</button>
-        <p class="form-note">Opens your email application with your request prepared. No information is sent automatically.</p>
+        <label for="email">EMAIL ADDRESS</label>
+        <input id="email" name="email" type="email" required placeholder="you@example.com">
+
+        <label for="location">PROJECT CITY</label>
+        <input id="location" name="location" placeholder="Napa, San José, etc.">
+
+        <label for="message">WHAT CAN WE HELP WITH?</label>
+        <textarea id="message" name="message" rows="5" required placeholder="Tell us about your project..."></textarea>
+
+        <button class="btn btn-red" type="submit">
+          PREPARE EMAIL REQUEST ↗
+        </button>
+
+        <small>
+          Opens your email app with your project
+          details filled in. No information is
+          submitted directly from this page.
+        </small>
       </form>
     </section>
-
   </main>
 
-  <!-- 08 | FOOTER -->
-  <footer class="footer">
-    <a href="#home" class="footer-logo">T<span>.</span> <small>TINEO HANDYMAN SERVICES</small></a>
-    <div class="footer-links">
-      <a href="#services">Services</a>
-      <a href="#work">Work</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </div>
-    <p>NAPA & SAN JOSÉ AREA</p>
+  <!-- 10 | FOOTER -->
+  <footer>
+    <div class="footer-name">TINEO<span>★</span></div>
+    <p>HANDYMAN SERVICES · NAPA & SAN JOSÉ AREA</p>
+    <a href="#home">BACK TO TOP ↑</a>
   </footer>
-
 </body>
 </html>
